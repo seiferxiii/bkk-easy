@@ -1,0 +1,4 @@
+service : {
+  getSubmittedNames: () -> (vec text) query;
+  greet: (text) -> (text);
+}
